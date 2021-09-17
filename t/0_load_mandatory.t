@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use Test::More tests => 548;
+use Test::More tests => 547;
 
 BEGIN {
 use_ok('Net::DRI');
@@ -213,7 +213,6 @@ use_ok('Net::DRI::Protocol::EPP::Extensions::Afilias::IPR');
 use_ok('Net::DRI::Protocol::EPP::Extensions::Afilias::JSONMessage');
 use_ok('Net::DRI::Protocol::EPP::Extensions::Afilias::MaintainerUrl');
 use_ok('Net::DRI::Protocol::EPP::Extensions::Afilias::Message');
-use_ok('Net::DRI::Protocol::EPP::Extensions::Afilias::Mobi');
 use_ok('Net::DRI::Protocol::EPP::Extensions::Afilias::Price');
 use_ok('Net::DRI::Protocol::EPP::Extensions::Afilias::Registrar');
 use_ok('Net::DRI::Protocol::EPP::Extensions::Afilias::Restore');

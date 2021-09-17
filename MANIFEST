@@ -225,7 +225,6 @@ lib/Net/DRI/Protocol/EPP/Extensions/Afilias/IPR.pm
 lib/Net/DRI/Protocol/EPP/Extensions/Afilias/JSONMessage.pm
 lib/Net/DRI/Protocol/EPP/Extensions/Afilias/MaintainerUrl.pm
 lib/Net/DRI/Protocol/EPP/Extensions/Afilias/Message.pm
-lib/Net/DRI/Protocol/EPP/Extensions/Afilias/Mobi.pm
 lib/Net/DRI/Protocol/EPP/Extensions/Afilias/Price.pm
 lib/Net/DRI/Protocol/EPP/Extensions/Afilias/Registrar.pm
 lib/Net/DRI/Protocol/EPP/Extensions/Afilias/Restore.pm
