@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use Test::More tests => 551;
+use Test::More tests => 550;
 
 BEGIN {
 use_ok('Net::DRI');
@@ -61,7 +61,6 @@ use_ok('Net::DRI::Data::RegistryObject');
 use_ok('Net::DRI::Data::StatusList');
 use_ok('Net::DRI::DRD');
 use_ok('Net::DRI::DRD::AdamsNames');
-use_ok('Net::DRI::DRD::Afilias::PIR');
 use_ok('Net::DRI::DRD::Afilias::Shared');
 use_ok('Net::DRI::DRD::AFNIC::AFNIC');
 use_ok('Net::DRI::DRD::AFNIC::GTLD');
@@ -91,6 +90,7 @@ use_ok('Net::DRI::DRD::DNSBelgium::GTLD');
 use_ok('Net::DRI::DRD::DNSPT');
 use_ok('Net::DRI::DRD::Domicilium');
 use_ok('Net::DRI::DRD::Donuts');
+use_ok('Net::DRI::DRD::Donuts::PIR');
 use_ok('Net::DRI::DRD::DotCooperation');
 use_ok('Net::DRI::DRD::ECOMLAC');
 use_ok('Net::DRI::DRD::EURid');
@@ -400,7 +400,6 @@ use_ok('Net::DRI::Protocol::EPP::Extensions::Nominet::Session');
 use_ok('Net::DRI::Protocol::EPP::Extensions::NO::Result');
 use_ok('Net::DRI::Protocol::EPP::Extensions::NSgroup');
 use_ok('Net::DRI::Protocol::EPP::Extensions::NZ');
-use_ok('Net::DRI::Protocol::EPP::Extensions::PIR');
 use_ok('Net::DRI::Protocol::EPP::Extensions::PL');
 use_ok('Net::DRI::Protocol::EPP::Extensions::PL::Contact');
 use_ok('Net::DRI::Protocol::EPP::Extensions::PL::Domain');

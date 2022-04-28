@@ -72,7 +72,6 @@ lib/Net/DRI/Data/RegistryObject.pm
 lib/Net/DRI/Data/StatusList.pm
 lib/Net/DRI/DRD.pm
 lib/Net/DRI/DRD/AdamsNames.pm
-lib/Net/DRI/DRD/Afilias/PIR.pm
 lib/Net/DRI/DRD/Afilias/Shared.pm
 lib/Net/DRI/DRD/AFNIC/AFNIC.pm
 lib/Net/DRI/DRD/AFNIC/GTLD.pm
@@ -102,6 +101,7 @@ lib/Net/DRI/DRD/DNSBelgium/GTLD.pm
 lib/Net/DRI/DRD/DNSPT.pm
 lib/Net/DRI/DRD/Domicilium.pm
 lib/Net/DRI/DRD/Donuts.pm
+lib/Net/DRI/DRD/Donuts/PIR.pm
 lib/Net/DRI/DRD/DotCooperation.pm
 lib/Net/DRI/DRD/ECOMLAC.pm
 lib/Net/DRI/DRD/EURid.pm
@@ -414,7 +414,6 @@ lib/Net/DRI/Protocol/EPP/Extensions/Nominet/Notifications.pm
 lib/Net/DRI/Protocol/EPP/Extensions/Nominet/Session.pm
 lib/Net/DRI/Protocol/EPP/Extensions/NSgroup.pm
 lib/Net/DRI/Protocol/EPP/Extensions/NZ.pm
-lib/Net/DRI/Protocol/EPP/Extensions/PIR.pm
 lib/Net/DRI/Protocol/EPP/Extensions/PL.pm
 lib/Net/DRI/Protocol/EPP/Extensions/PL/Contact.pm
 lib/Net/DRI/Protocol/EPP/Extensions/PL/Domain.pm
@@ -699,7 +698,6 @@ t/Net/DRI/Protocol/EPP/Extensions/Nominet.t
 t/Net/DRI/Protocol/EPP/Extensions/Nominet/Amazon.t
 t/Net/DRI/Protocol/EPP/Extensions/NSgroup.t
 t/Net/DRI/Protocol/EPP/Extensions/NZ.t
-t/Net/DRI/Protocol/EPP/Extensions/PIR.t
 t/Net/DRI/Protocol/EPP/Extensions/PL.t
 t/Net/DRI/Protocol/EPP/Extensions/RegBox.t
 t/Net/DRI/Protocol/EPP/Extensions/ResellerInfo.t
